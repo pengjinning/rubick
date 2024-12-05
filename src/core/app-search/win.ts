@@ -23,6 +23,7 @@ if (!exists) {
   fs.mkdirSync(icondir);
 }
 
+// "extract-file-icon": "^0.3.2",
 const getico = (app) => {
   try {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
